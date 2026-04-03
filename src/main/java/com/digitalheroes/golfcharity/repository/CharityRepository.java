@@ -1,0 +1,7 @@
+package com.digitalheroes.golfcharity.repository;
+
+import com.digitalheroes.golfcharity.model.Charity;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface CharityRepository extends JpaRepository<Charity, Long> {
+}
